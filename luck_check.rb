@@ -18,3 +18,9 @@ def luck_check(num)
 end
 
 puts luck_check(003111)
+
+# def luck_check(num)
+#   str = num.to_s
+#   if string.length % 2 == 0
+#
+# end

@@ -1,5 +1,4 @@
 def valid_phone_numbers(str)
-  numbers = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
   array = str.split("")
   if array[0] == "(" && array[4] == ")" && array[5] && array[9] == "-"
     array.delete_at(9)
